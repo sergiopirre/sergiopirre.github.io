@@ -9,6 +9,10 @@
     <meta name="Author" content="Sergio">
     <title>Repaso</title>
     <link href="css\index.css">
+    <script src="js\main.js"></script>
+    <script>
+        document.getElementById
+    </script>
     <style>
         body {
             background-color: pink;
@@ -46,5 +50,13 @@
             <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
             <li><a href="https://www.w3.org/">JAVASCRIPT</a></li>
         </ul>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Haga clic sobre mi para mostrar la fecha y la hora</button>
+        <p id="demo">Voy a desaparecer</p>
+        <button onclick="document.getElementById('feliz').src='img/carafeliz.jpg'">Cara feliz</button>
+
+        <img src="img\caratriste.jpg" id="feliz" alt="Emoji">
+        <button onclick="document.getElementById('feliz').src='img/caratriste.jpg'">Cara triste</button>
  </body>
  </html>
