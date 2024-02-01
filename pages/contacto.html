@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="Autor" content="Sergio">
+    <meta name="description" content="La manera de contactar con Sergio">
+    <meta name="keywords" content="contacto,html">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" class="logo" alt="Logo de nombre" loading="eager">
+        <ul class="menu">
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="./habilidades.html">Habilidades</a></li>
+            <li><a href="./trabajos.html">Trabajos</a></li>
+            <li><a href="./curriculum.html">Curriculum</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+<main>
+    <h1>Formulario y tipos de input</h1>
+    <fieldset>
+    <legend>Datos personales</legend><br>
+    <form action="/action_page.php">
+        <!--Text es para poder meter texto-->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"> <br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos"> <br>
+        <!--Date es para poder elegir una fecha-->
+        <label for="cumple">Fecha de nacimineto</label>
+        <input type="date" id="cumple" name="cumple"> <br><br>
+        <!--Email es para introducir un correo electrónico-->
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo"> <br><br>
+        <!--Password es para poner una contraseña-->
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña"> <br><br>
+        <!--Select es para poder hacer un desplegable-->
+        <label for="desplegable">Motivo del mensaje</label>
+        <select name="desplegable" id="desplegable">
+            <optgroup>
+                <option value="opcion1">Personal</option>
+                <option value="opcion2">Trabajo</option>
+            </optgroup>
+        </select><br><br>
+        <!--Tel es para poder añadir un teléfono-->
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono"> <br><br>
+        <!--Textarea se usa para indicar las filas y columnas que puede tener como maximo el mensaje-->
+        <p><label for="comentario">Problema o comentario sobre el que comentar:</label></p>
+        <textarea id="comentario" name="comentario" rows="4" cols="50">Comentario...</textarea>
+        <br>
+        <!--La etiqueta submit sirve para enviar la información-->
+        <input type="submit" name="Enviar">
+        </form>
+    </fieldset>
+    </main>
+    <footer>
+        <img src="../img/logo.png" alt="Logo de Sergio" class="logofooter">
+        <div class="containericonos">
+            <a href="https://www.facebook.com/profile.php?id=100063920232917" class="iconredes"></a>
+            <a href="#" class="iconredes"></a>
+            <a href="#" class="iconredes"></a>
+            <a href="#" class="iconredes"></a>
+        </div>
+        <ul class="containerderechos">
+            <li class="derechos">Legal</li>
+            <li class="derechos">Cookies</li>
+            <li class="derechos">Privacidad</li>
+        </ul>
+        <span class="copyright">&copy;Sergio Martínez.@Todos los derechos reservados.</span>
+    </footer>
+</body>
+</html>

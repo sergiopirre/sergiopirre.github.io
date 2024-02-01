@@ -1,0 +1,26 @@
+* {margin: 0px; padding: 0; box-sizing: border-box;}
+body {
+    background-color: rgb(70, 70, 70);
+}
+main {
+    margin: 0 auto;
+    text-align: center;   
+}
+label,fieldset {
+    margin-top: 20em;
+    color: white;
+    font-size: 1.2em;
+}
+h1, input {
+    text-align: center;        
+}
+fieldset {
+    width: 70vw;
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+    margin-top: 0.5em;
+    font-size: 3em;
+    margin-bottom: 1.5em;
+}
