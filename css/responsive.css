@@ -35,6 +35,7 @@
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 1;
     }
     header ul li{
         display: block;
@@ -52,6 +53,10 @@
     }
     .menu li {
         display: block;
+    }
+    /**/
+    .divIndex {
+        height: 90vh;
     }
 
 }
